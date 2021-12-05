@@ -14,13 +14,14 @@
     <h1>Calcule seu IMC</h1>
     <form action="/" id="form" method="POST">
       <label for="peso">Peso:</label>
-      <input type="text" id="peso" name="peso">
+      <input type="number" id="peso" name="peso">
 
       <label for="altura">Altura:</label>
-      <input type="text" id="altura" name="altura">
+      <input type="number" step="0.01" id="altura" name="altura">
 
       <button type="submit">Confirmar</button>
     </form>
+    <div id="result"></div>
   </section>
   <script src="./assets/js/main.js"></script>
 </body>

@@ -4,6 +4,10 @@
   --primary-color: #5E3BE0;
   --primary-color-dark: #4B2EBA;
   --primary-color-light: #6349cc;
+  --secondary-color: #18D0A8;
+  --secondary-color-light: #18d0a81f;
+  --terciary-color: #DB1951;
+  --terciary-color-light: #db19501f;
   --background-color: #191819;
 }
 
@@ -28,6 +32,7 @@ body{
   background: #252425;
   padding: 30px;
   border-radius: 10px;
+  
 } 
 
 form input, form label, form button{
@@ -44,11 +49,16 @@ form input {
 }
 
 form input:focus{
+  border-width: 1px;
   outline: 1px solid var(--primary-color);
 }
 
+form input, select, textarea{
+  color: var(--primary-color);
+}
+
 form button {
-  border:none;
+  border: none;
   background-color: var(--primary-color);
   color: #fff;
   font-size: 18px;
@@ -56,8 +66,9 @@ form button {
   height: 50px;
   cursor: pointer;
   outline: 1px solid var(--background-color);
-  margin-top: 30px;
   border-radius: 5px;
+  margin-top: 30px;
+  user-select: none;
 }
 
 form button:hover{
@@ -66,4 +77,17 @@ form button:hover{
 
 form button:active{
   background: var(--primary-color-light);
+}
+
+.paragraph-result , .bad{
+  color: var(--secondary-color);
+  background: var(--secondary-color-light);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.bad {
+  color: var(--terciary-color);
+  background: var(--terciary-color-light);
+  padding: 10px 20px;
 }
