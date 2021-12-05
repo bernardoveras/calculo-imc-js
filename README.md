@@ -4,7 +4,7 @@
 
 ---
 # Preview:
-
+![](.github/preview.gif)
 
 #### Utilizo como ferramenta:
 - JavaScript
