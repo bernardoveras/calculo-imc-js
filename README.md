@@ -4,7 +4,10 @@
 
 ---
 # Preview:
-![](https://www.screencast.com/users/BernardoVeras/folders/Capture/media/b7d57579-0cf6-4520-8ab8-db08dfa89dc8/embed);
+<iframe
+  src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
+  style="width:100%; height:300px;"
+></iframe>
 
 #### Utilizo como ferramenta:
 - JavaScript
