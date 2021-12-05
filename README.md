@@ -4,10 +4,7 @@
 
 ---
 # Preview:
-<div>
-<iframe class="embeddedObject shadow resizable" name="embedded_content" scrolling="no" frameborder="0" type="text/html" 
-        style="overflow:hidden;" src="https://www.screencast.com/users/BernardoVeras/folders/Capture/media/b7d57579-0cf6-4520-8ab8-db08dfa89dc8/embed" height="938" width="1880" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<div/>
+![](https://www.screencast.com/users/BernardoVeras/folders/Capture/media/b7d57579-0cf6-4520-8ab8-db08dfa89dc8/embed);
 
 #### Utilizo como ferramenta:
 - JavaScript
