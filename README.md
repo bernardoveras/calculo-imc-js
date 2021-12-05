@@ -6,7 +6,7 @@
 # Preview:
 ![](.github/preview.gif)
 
-#### Utilizo como ferramenta:
+### Utilizo as ferramentas:
 - JavaScript
 - HTML5
 - CSS
